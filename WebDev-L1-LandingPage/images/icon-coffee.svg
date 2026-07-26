@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Coffee icon">
+  <circle cx="32" cy="32" r="30" fill="#F8F3E7"/>
+  <rect x="18" y="22" width="28" height="22" rx="4" fill="#FFFDF9" stroke="#6F4E37" stroke-width="2"/>
+  <ellipse cx="32" cy="22" rx="14" ry="4" fill="#3E2723"/>
+  <path d="M46 28 Q54 28 54 36 Q54 44 46 44" fill="none" stroke="#6F4E37" stroke-width="2"/>
+  <path d="M26 14 Q24 8 28 6" fill="none" stroke="#C89F65" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 12 Q30 6 34 4" fill="none" stroke="#C89F65" stroke-width="2" stroke-linecap="round"/>
+  <path d="M38 14 Q40 8 36 6" fill="none" stroke="#C89F65" stroke-width="2" stroke-linecap="round"/>
+</svg>

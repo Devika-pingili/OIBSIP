@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and responsive viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nomad Brew - Where Every Cup Begins a New Journey. A travel-inspired café offering handcrafted coffee and unforgettable experiences.">
+    <title>Nomad Brew | Coffee & Adventure</title>
+
+    <!-- Google Fonts: Playfair Display for headings, Poppins for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== HEADER & NAVIGATION ==================== -->
+    <header class="header" id="home">
+        <nav class="navbar container">
+            <!-- Logo -->
+            <a href="#home" class="logo">
+                Nomad Brew <span class="logo-icon" aria-hidden="true">☕</span>
+            </a>
+
+            <!-- Navigation links -->
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Reservation call-to-action button -->
+            <a href="#contact" class="btn btn-reservation">Reservation</a>
+        </nav>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+
+        <!-- ==================== HERO SECTION ==================== -->
+        <section class="hero" aria-label="Welcome to Nomad Brew">
+            <div class="hero-container container">
+                <!-- Left: Text content -->
+                <div class="hero-content">
+                    <h1 class="hero-heading">Discover the Perfect Blend of Coffee &amp; Adventure</h1>
+                    <p class="hero-subheading">
+                        From handcrafted coffee to unforgettable travel-inspired experiences,
+                        Nomad Brew is your destination for relaxation and exploration.
+                    </p>
+                    <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                </div>
+
+                <!-- Right: Hero image -->
+                <div class="hero-image">
+                    <img src="images/hero-coffee.svg" alt="A steaming cup of coffee with travel elements like a compass and map">
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== WHY CHOOSE US ==================== -->
+        <section class="why-choose-us section" id="why-us" aria-labelledby="why-heading">
+            <div class="container">
+                <p class="section-label">Why Choose Us</p>
+                <h2 class="section-heading" id="why-heading">The Nomad Brew Experience</h2>
+
+                <div class="cards-grid cards-grid--three">
+                    <!-- Card 1 -->
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <img src="images/icon-coffee.svg" alt="">
+                        </div>
+                        <h3 class="feature-title">Freshly Brewed Coffee</h3>
+                        <p class="feature-text">
+                            Every cup is crafted with freshly ground beans, brewed to perfection
+                            for a rich and aromatic experience.
+                        </p>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <img src="images/icon-travel.svg" alt="">
+                        </div>
+                        <h3 class="feature-title">Travel Inspired Ambience</h3>
+                        <p class="feature-text">
+                            Step into a world of wanderlust with décor inspired by destinations
+                            from around the globe.
+                        </p>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <img src="images/icon-quality.svg" alt="">
+                        </div>
+                        <h3 class="feature-title">Premium Quality Ingredients</h3>
+                        <p class="feature-text">
+                            We source only the finest organic beans and locally sourced ingredients
+                            for every drink and dish.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== ABOUT US ==================== -->
+        <section class="about section" id="about" aria-labelledby="about-heading">
+            <div class="container about-container">
+                <!-- About image -->
+                <div class="about-image">
+                    <img src="images/about-cafe.jpg" alt="Interior of Nomad Brew café with warm lighting and cozy seating">
+                </div>
+
+                <!-- About text content -->
+                <div class="about-content">
+                    <p class="section-label">About Us</p>
+                    <h2 class="section-heading" id="about-heading">A Café Built for Dreamers &amp; Explorers</h2>
+                    <p class="about-text">
+                        Nomad Brew was born from a love of coffee and a passion for travel.
+                        We created a space where every sip tells a story and every corner
+                        invites you to dream of your next adventure.
+                    </p>
+                    <p class="about-text">
+                        Whether you're planning your next trip, working remotely, or simply
+                        enjoying a quiet moment, our café offers the perfect blend of comfort
+                        and inspiration.
+                    </p>
+
+                    <!-- Feature bullet points -->
+                    <ul class="about-list">
+                        <li><span class="check-icon" aria-hidden="true">✓</span> Organic Coffee Beans</li>
+                        <li><span class="check-icon" aria-hidden="true">✓</span> Cozy Workspace</li>
+                        <li><span class="check-icon" aria-hidden="true">✓</span> Free Wi-Fi</li>
+                        <li><span class="check-icon" aria-hidden="true">✓</span> Friendly Staff</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== FEATURED MENU ==================== -->
+        <section class="menu section" id="menu" aria-labelledby="menu-heading">
+            <div class="container">
+                <p class="section-label">Our Menu</p>
+                <h2 class="section-heading" id="menu-heading">Featured Coffees</h2>
+
+                <div class="menu-grid">
+                    <!-- Menu Item 1 -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="images/menu-espresso.jpg" alt="Classic Espresso">
+                        </div>
+                        <div class="menu-info">
+                            <h3 class="menu-name">Classic Espresso</h3>
+                            <p class="menu-desc">Bold and rich single-origin espresso shot.</p>
+                            <p class="menu-price">$3.50</p>
+                        </div>
+                    </article>
+
+                    <!-- Menu Item 2 -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="images/menu-latte.jpg" alt="Nomad Latte">
+                        </div>
+                        <div class="menu-info">
+                            <h3 class="menu-name">Nomad Latte</h3>
+                            <p class="menu-desc">Silky steamed milk with our signature blend.</p>
+                            <p class="menu-price">$4.75</p>
+                        </div>
+                    </article>
+
+                    <!-- Menu Item 3 -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="images/menu-cappuccino.jpg" alt="Explorer Cappuccino">
+                        </div>
+                        <div class="menu-info">
+                            <h3 class="menu-name">Explorer Cappuccino</h3>
+                            <p class="menu-desc">Perfect foam-to-espresso ratio, lightly sweetened.</p>
+                            <p class="menu-price">$4.50</p>
+                        </div>
+                    </article>
+
+                    <!-- Menu Item 4 -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="images/menu-mocha.jpg" alt="Safari Mocha">
+                        </div>
+                        <div class="menu-info">
+                            <h3 class="menu-name">Safari Mocha</h3>
+                            <p class="menu-desc">Dark chocolate and espresso adventure in a cup.</p>
+                            <p class="menu-price">$5.25</p>
+                        </div>
+                    </article>
+
+                    <!-- Menu Item 5 -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="images/menu-coldbrew.jpg" alt="Wanderlust Cold Brew">
+                        </div>
+                        <div class="menu-info">
+                            <h3 class="menu-name">Wanderlust Cold Brew</h3>
+                            <p class="menu-desc">Slow-steeped for 18 hours, smooth and refreshing.</p>
+                            <p class="menu-price">$4.95</p>
+                        </div>
+                    </article>
+
+                    <!-- Menu Item 6 -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="images/menu-matcha.jpg" alt="Horizon Matcha">
+                        </div>
+                        <div class="menu-info">
+                            <h3 class="menu-name">Horizon Matcha</h3>
+                            <p class="menu-desc">Ceremonial grade matcha with oat milk.</p>
+                            <p class="menu-price">$5.50</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== GALLERY (anchor for nav link) ==================== -->
+        <section class="gallery section" id="gallery" aria-labelledby="gallery-heading">
+            <div class="container">
+                <p class="section-label">Gallery</p>
+                <h2 class="section-heading" id="gallery-heading">Moments at Nomad Brew</h2>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/gallery-1.jpg" alt="Customers enjoying coffee at Nomad Brew">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery-2.jpg" alt="Barista preparing a latte with art">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery-3.jpg" alt="Travel-themed café interior with world map wall">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CUSTOMER TESTIMONIALS ==================== -->
+        <section class="testimonials section" aria-labelledby="testimonials-heading">
+            <div class="container">
+                <p class="section-label">Testimonials</p>
+                <h2 class="section-heading" id="testimonials-heading">What Our Guests Say</h2>
+
+                <div class="cards-grid cards-grid--three">
+                    <!-- Testimonial 1 -->
+                    <article class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="images/avatar-1.svg" alt="Photo of Sarah Mitchell">
+                        </div>
+                        <h3 class="testimonial-name">Sarah Mitchell</h3>
+                        <p class="testimonial-occupation">Travel Blogger</p>
+                        <p class="testimonial-review">
+                            "Nomad Brew is my go-to spot before every trip. The coffee is incredible
+                            and the atmosphere makes me feel like I'm already on vacation!"
+                        </p>
+                        <p class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</p>
+                    </article>
+
+                    <!-- Testimonial 2 -->
+                    <article class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="images/avatar-2.svg" alt="Photo of James Rodriguez">
+                        </div>
+                        <h3 class="testimonial-name">James Rodriguez</h3>
+                        <p class="testimonial-occupation">Freelance Designer</p>
+                        <p class="testimonial-review">
+                            "Perfect workspace with great Wi-Fi and even better coffee.
+                            I come here every day to work and unwind."
+                        </p>
+                        <p class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</p>
+                    </article>
+
+                    <!-- Testimonial 3 -->
+                    <article class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="images/avatar-3.svg" alt="Photo of Emily Chen">
+                        </div>
+                        <h3 class="testimonial-name">Emily Chen</h3>
+                        <p class="testimonial-occupation">University Student</p>
+                        <p class="testimonial-review">
+                            "The friendliest staff and the coziest vibes. Their Wanderlust Cold Brew
+                            is absolutely addictive. Highly recommend!"
+                        </p>
+                        <p class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CALL TO ACTION ==================== -->
+        <section class="cta section" aria-labelledby="cta-heading">
+            <div class="container cta-container">
+                <h2 class="cta-heading" id="cta-heading">Ready to Begin Your Coffee Journey?</h2>
+                <p class="cta-text">Visit us today and discover why every cup begins a new adventure.</p>
+                <a href="#contact" class="btn btn-primary btn-light">Visit Us Today</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <!-- Column 1: About -->
+            <div class="footer-column">
+                <h3 class="footer-title">About</h3>
+                <p class="footer-text">
+                    Nomad Brew is a travel-inspired café where handcrafted coffee meets
+                    wanderlust. Where Every Cup Begins a New Journey.
+                </p>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-column">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Contact -->
+            <div class="footer-column">
+                <h3 class="footer-title">Contact</h3>
+                <ul class="footer-contact">
+                    <li>
+                        <span class="contact-label">Address:</span>
+                        coffee city, 78969
+                    </li>
+                    <li>
+                        <span class="contact-label">Phone:</span>
+                        +91 9876543210 
+                    </li>
+                    <li>
+                        <span class="contact-label">Email:</span>
+                        nomadbrew@gmail.com
+                    </li>
+                    <li>
+                        <span class="contact-label">Hours:</span>
+                        Mon–Sun: 7:00 AM – 9:00 PM
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Social Media -->
+            <div class="footer-column">
+                <h3 class="footer-title">Social Media</h3>
+                <ul class="social-links">
+                    <li><a href="#" aria-label="Follow us on Facebook">Facebook</a></li>
+                    <li><a href="#" aria-label="Follow us on Instagram">Instagram</a></li>
+                    <li><a href="#" aria-label="Follow us on Twitter">Twitter</a></li>
+                    <li><a href="#" aria-label="Connect with us on LinkedIn">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer bottom bar -->
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Nomad Brew.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
