@@ -30,9 +30,9 @@ WebDev-L1-PersonalPortfolio/
 │── images/
 └── README.md
 ```
-## Deployment Link
+## Live Demo
 
-oibsip-personalportfolio.vercel.app
+🔗 **Live Demo:** https://oibsip-personalportfolio.vercel.app
 
 ## 📚 Skills
 
