@@ -5,6 +5,7 @@ Welcome to my repository for the **Oasis Infobyte Web Development & Designing In
 This repository contains all my Level 1 internship projects built using HTML, CSS, and JavaScript.
 
 ## Projects
+## LEVEL 1
 
 ### Task 1 - Landing Page
 A responsive landing page for a modern coffee shop with attractive UI and responsive design.
