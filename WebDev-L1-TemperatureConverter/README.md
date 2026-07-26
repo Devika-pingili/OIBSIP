@@ -32,9 +32,10 @@ TemperatureConverter/
 └── README.md       # Project documentation
 ```
 
-## Delpoyment Link
+## Live Demo
 
-oibsip-temperatureconverter.vercel.app
+🔗 **Live Demo:** https://oibsip-temperatureconverter.vercel.app
+
 
 ## Technologies Used
 
