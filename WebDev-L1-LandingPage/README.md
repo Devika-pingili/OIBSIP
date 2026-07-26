@@ -37,9 +37,10 @@ WebDev-L1-LandingPage/
 │── images/
 └── README.md
 ```
-## Deployment link
 
-oibsip-landingpage.vercel.app
+## Live Demo
+
+🔗 **Live Demo:** oibsip-landingpage.vercel.app
 
 ```
 
