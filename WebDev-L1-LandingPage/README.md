@@ -40,9 +40,10 @@ WebDev-L1-LandingPage/
 
 ## Live Demo
 
-🔗 **Live Demo:** oibsip-landingpage.vercel.app
+🔗 **Live Demo:** https://oibsip-landingpage.vercel.app
 
 ```
+
 
 ## 🎯 Learning Outcomes
 
