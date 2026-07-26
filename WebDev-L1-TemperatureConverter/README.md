@@ -89,15 +89,6 @@ No installation, build step, or server is required.
 - **Kelvin → Celsius:** K − 273.15
 - **Kelvin → Fahrenheit:** ((K − 273.15) × 9/5) + 32
 
-## Screenshots
-
-> Add screenshots of your project here after testing.
-
-| Desktop View | Mobile View |
-|--------------|-------------|
-| ![Desktop Screenshot](screenshots/desktop.png) | ![Mobile Screenshot](screenshots/mobile.png) |
-
-*Tip: Take screenshots after opening `index.html` in your browser and save them in a `screenshots` folder.*
 
 ## Future Improvements
 
